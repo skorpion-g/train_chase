@@ -10,6 +10,15 @@
 ### Problem
 The FBI is hot on the trail of a notorious, international smuggler who has fled the jurisdiction.  Fortunately, your office has discovered a stack of train tickets that your quarry has foolishly abandoned on his escape. You can use these to track your target.  Unfortunately, the tickets are out of order, and they **must** be sorted before any action can be taken.  You, being a resourceful and technically savvy agent, offer to write a quick Node.js application that takes in the randomly sequenced array of ticket-objects and returns the array of tickets sorted.  Each ticket contains two fields (`{from: string, to: string}`), which you will use to sort them, mapping the smuggler's path.
 
+Example
+
+    [
+        {from: 'Los Angeles', to: 'San Francisco'},
+        {from: 'San Francisco', to: 'Las Vegas'},
+        {from: 'Las Vegas', to: 'Austin'}
+    ]
+
+
 ### Instructions
 This repository provides you with a node app and some starter code in `index.js`.  Use it, and complete the `sort_tickets()` function, ordering the tickets such that the `to` property in the initial ticket is the same as the `from` property of the next sequential ticket, and so on.
 
