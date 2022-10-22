@@ -12,7 +12,7 @@ function sort_tickets(the_evidence) {
 
 /* 
   This variable determines the number of hops in the trip, 
-  or tickets in the stack.  It can range from 2 to 50. 
+  or tickets in the stack.
 */
 const ticket_count = 50
 
