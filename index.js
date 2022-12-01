@@ -64,7 +64,7 @@ function sort_tickets(the_evidence) {
   This variable determines the number of hops in the trip, 
   or tickets in the stack.
 */
-const ticket_count = 5;
+const ticket_count = 50;
 
 /* 
   This is the controling function that calls the sort function.
