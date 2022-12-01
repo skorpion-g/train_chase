@@ -5,7 +5,9 @@
   "main": "index.js",
   "jest": {
     "verbose": true,
-    "modulePaths": ["<rootDir>"] 
+    "modulePaths": [
+      "<rootDir>"
+    ]
   },
   "scripts": {
     "test": "jest",

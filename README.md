@@ -15,6 +15,7 @@ Example
     [
         {from: 'Los Angeles', to: 'San Francisco'},
         {from: 'San Francisco', to: 'Las Vegas'},
+        {from: 'Dallas', to: 'Seattle'},
         {from: 'Las Vegas', to: 'Austin'}
     ]
 
